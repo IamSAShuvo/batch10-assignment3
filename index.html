@@ -66,6 +66,7 @@
   </head>
 
   <body class="font-manrope">
+    <!-- Header Section Start -->
     <header class="bg-backgroundOdd w-11/12 mx-auto">
       <!-- Navbar Section -->
       <nav class="navbar justify-between bg-base-100">
@@ -202,7 +203,7 @@
 
       <!-- Banner Section Start -->
       <section
-        class="bg-backgroundOdd w-11/12 mx-auto flex flex-col gap-4 lg:gap-7 lg:items-center"
+        class="bg-backgroundOdd w-11/12 mx-auto flex flex-col gap-4 lg:gap-7 lg:items-center mb-24"
       >
         <img
           class="w-3/5 mx-auto"
@@ -222,7 +223,7 @@
           large windows that flood the space with natural light.
         </p>
         <button
-          class="btn bg-primaryOpacity hover:bg-primary text-xl font-bold"
+          class="btn bg-primaryOpacity rounded-full hover:bg-primary text-xl font-bold"
         >
           View Details
           <div
@@ -247,7 +248,66 @@
       </section>
       <!-- Banner Section End -->
     </header>
-    <main></main>
+    <!-- Header Section End -->
+
+    <main>
+      <section class="bg-backgroundEven lg:relative">
+        <img
+          class="hidden lg:block lg:absolute lg:top-14 lg:left-5 lg:w-24"
+          src="./assets/Vector.png"
+          alt=""
+        />
+        <article class="w-11/12 mx-auto flex justify-between gap-9 py-24">
+          <div class="w-7/12 flex flex-col gap-6">
+            <div class="space-y-5">
+              <button
+                class="btn bg-white text-base font-bold text-textColorDesc shadow-none"
+              >
+                <i class="bi bi-arrow-right mb-1"></i>About Us
+              </button>
+              <h3 class="text-4xl font-bold">
+                We design thoughtful, <br />
+                liveable spaces
+              </h3>
+              <p class="text-textColorDesc">
+                We craft spaces that blend style and functionality. Every detail
+                is thoughtfully designed to create environments that are both
+                comfortable and uniquely yours.
+              </p>
+            </div>
+
+            <div class="bg-white flex gap-6 p-6">
+              <img class="w-2/12" src="./assets/commercial.png" alt="" />
+              <div>
+                <h3 class="text-xl font-extrabold text-textColorDesc mb-6">
+                  Commercial
+                </h3>
+                <p class="text-textColorDesc2 w-96">
+                  We design commercial spaces that are functional, stylish, and
+                  tailored to meet your business needs.
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white flex gap-6 p-6">
+              <img class="w-2/12" src="./assets/residential.png" alt="" />
+              <div>
+                <h3 class="text-xl font-extrabold text-textColorDesc mb-6">
+                  Commercial
+                </h3>
+                <p class="text-textColorDesc2 w-96">
+                  We create personalized residential spaces that blend comfort,
+                  style, and functionality for your home.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-5/12">
+            <img class="h-full" src="./assets/Rectangle.png" alt="" />
+          </div>
+        </article>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
