@@ -46,9 +46,12 @@
             colors: {
               primary: "rgb(171, 239, 95)",
               primaryOpacity: "rgba(171, 239, 95, 0.2)",
-              backgroundEven: "rgb(244, 244, 244);",
-              backgroundOdd: "rgb(251, 251, 251);",
+              backgroundEven: "rgb(244, 244, 244)",
+              backgroundOdd: "rgb(251, 251, 251)",
               arrowBackground: "rgb(28, 28, 28)",
+              textColorHeading: "rgb(33, 33, 33)",
+              textColorDesc: "rgb(73, 73, 73)",
+              textColorDesc2: "rgb(115, 115, 115)",
             },
             fontFamily: {
               manrope: "Manrope",
@@ -195,10 +198,54 @@
           </div>
         </div>
       </nav>
-      <!-- Nav section end -->
+      <!-- Nav section End -->
 
       <!-- Banner Section Start -->
-      <section class="bg-backgroundOdd w-11/12 mx-auto"></section>
+      <section
+        class="bg-backgroundOdd w-11/12 mx-auto flex flex-col gap-4 lg:gap-7 lg:items-center"
+      >
+        <img
+          class="w-3/5 mx-auto"
+          src="./assets/banner.png"
+          alt="A house design"
+        />
+        <h1
+          class="lg:text-6xl text-2xl text-center font-extrabold text-textColorHeading"
+        >
+          A barn house of this design has a striking appearance
+        </h1>
+        <p
+          class="lg:text-base text-sm font-medium text-center text-textColorDesc w-3/4 mx-auto"
+        >
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, featuring weathered wood, sleek metal accents, and
+          large windows that flood the space with natural light.
+        </p>
+        <button
+          class="btn bg-primaryOpacity hover:bg-primary text-xl font-bold"
+        >
+          View Details
+          <div
+            class="bg-primary rounded-full p-1 flex items-center justify-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 text-black -rotate-45"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 12h14m0 0l-6 6m6-6l-6-6"
+              />
+            </svg>
+          </div>
+        </button>
+      </section>
+      <!-- Banner Section End -->
     </header>
     <main></main>
     <footer></footer>
